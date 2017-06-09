@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Alejandro Cuervo G">
+  <meta name="viewport" content="width=device-width,user-scalable=no">
+  <title>Hoja de Vida Digital</title>
+  <style>
+    h3{display: inline-block;}
+  </style>
+</head>
+<body>
+
+  <header>
+    <div style="">
+      <img src="media/logo.svg"/>
+      <h1>Hoja de Vida Digital</h1>
+      <h3>Nombres y Apellidos: </h3><label>Alejandro Cuervo Gómez</label></br>
+      <h3>Fecha de nacimiento: </h3><label>12 de octubre de 1991</label></br>
+      <h3>Lugar de nacimiento: </h3><label>Medellín, Colombia</label></br>
+    </div>
+  <header>
+
+  <navbar>
+    <a href="index.html">Inicio</a>
+    <a href="educacion.html">Educación</a>
+    <a href="experiencia.html">Experiencia</a>
+  </navbar>
+
+  <section>
+    <h2>Educación</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>Culminó?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2008</td>
+          <td>Inst. Educ. Jesús Rey</td>
+          <td>Medellín</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2011</td>
+          <td>Sena CESGE</td>
+          <td>Medellín</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2016</td>
+          <td>Inst. Univ. Salazar y Herrera</td>
+          <td>Medellín</td>
+          <td>Si</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr>
+
+    <h2>Agregar Estudios</h2>
+    <form action="#">
+
+      <h3>Año: </h3>
+      <select>
+        <option value="0">Seleccione año</option>
+        <option value="2011">2011</option>
+        <option value="2012">2012</option>
+        <option value="2013">2013</option>
+        <option value="2014">2014</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+      </select>
+      </br>
+
+      <h3>Institución:</h3><input required type="text" name="" value=""></br>
+
+      <h3>Lugar:</h3><textarea name="name" rows="3" cols="40"></textarea></br>
+
+      <label>¿Culminó?: </label>
+      <input type="radio" name="culmino" value="Si" checked>
+      <input type="radio" name="culmino" value="No" ></br></br>
+
+      <input type="submit" name="" value="Enviar"></br></br>
+
+    </form>
+  </section>
+
+  <footer>
+    <b>Correo Electrónico:</b><label>acgyiyo@hotmail.com</label>
+    <b>Celular: </b><latbel>3165898631</label>
+  </footer>
+
+  </body>
+</html>
